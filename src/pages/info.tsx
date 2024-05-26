@@ -12,7 +12,7 @@ const Info: NextPage = () => {
         <>
             <main>
             <Link href="/">
-                    <title>Wojak.farm</title>
+                    <title>Chads</title>
                 </Link>
 
                 <Link href="/">

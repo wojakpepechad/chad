@@ -234,8 +234,10 @@ export default function Home() {
                 <Image src="/chad.png" alt="Chad History" width={300} height={300} />
               </ImageContainer>
             </ContentContainer>
-              <ButtonLink href="#buy">$CHAD Purchase Options</ButtonLink>
+              <ButtonLink href="#buy">Buy $CHAD</ButtonLink>
             </DescriptionContainer>
+            <SocialLinks />
+
             <Image src="/chad.png" alt="Chad History" width={300} height={300} />
             <ContentContainer>
               <DescriptionContainer>
@@ -309,7 +311,6 @@ export default function Home() {
           <p>This is a meme, not an investment. Risk including the possible loss.</p>
         </SectionContainer>
         <p>© 2024 $CHAD Token. All rights reserved.</p>
-        <SocialLinks />
       </MainContainer>
     </>
   );
