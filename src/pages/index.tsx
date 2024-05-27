@@ -194,7 +194,7 @@ const SocialLinks = () => {
   return (
     <SocialContainer>
       <SocialRow>
-      <SocialLink href="https://app.uniswap.org/#/swap?outputCurrency=0x5c888fa2e6f9f0880321683d1efa12e936fd5051" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="https://app.uniswap.org/#/swap?outputCurrency=0x5c888fa2e6f9f0880321683d1efa12e936fd5051" target="_blank" rel="noopener noreferrer">
           <SocialIcon src="/socials/uniswap-logo.png" alt="Uniswap" />
         </SocialLink>
         <SocialLink href="https://etherscan.io/token/0x5c888fa2e6f9f0880321683d1efa12e936fd5051" target="_blank" rel="noopener noreferrer">
@@ -228,11 +228,11 @@ export default function Home() {
       <MainContainer>
         <SectionContainer>
           <Logo>
-              <Image src="/chad.png" alt="$CHAD Token Logo" width={150} height={150} />
-              <LogoText>$CHAD Token</LogoText>
-            </Logo>
-            <Title>Embrace the Meme</Title>
-            <DescriptionContainer>
+            <Image src="/chad.png" alt="$CHAD Token Logo" width={150} height={150} />
+            <LogoText>$CHAD Token</LogoText>
+          </Logo>
+          <Title>Embrace the Meme</Title>
+          <DescriptionContainer>
             <Address>0x5c888fa2e6f9f0880321683d1efa12e936fd5051</Address>
 
             <ContentContainer>
@@ -257,26 +257,26 @@ export default function Home() {
             </ContentContainer>
             <SocialLinks />
             <ButtonLink href="https://app.uniswap.org/#/swap?outputCurrency=0x5c888fa2e6f9f0880321683d1efa12e936fd5051" target="_blank" rel="noopener noreferrer">Buy $CHAD</ButtonLink>
+          </DescriptionContainer>
+        </SectionContainer>
+        <SectionContainer>
+          <ContentContainer>
+            <DescriptionContainer>
+              <p>Our Chad, however, breaks from the traditional mold to emphasize positivity and inclusivity—key aspects that set us apart in the meme-driven cryptocurrency space.</p>
+              <p>Our commitment to reshaping the narrative around what a meme can represent is central to our success. By steering away from any negative connotations and focusing on a family-friendly portrayal, we foster a broader acceptance and appeal. This approach not only aligns with modern values but also cements our position as pioneers in a rapidly evolving market.</p>
             </DescriptionContainer>
-            </SectionContainer>
-            <SectionContainer>
-            <ContentContainer>
-              <DescriptionContainer>
-                <p>Our Chad, however, breaks from the traditional mold to emphasize positivity and inclusivity—key aspects that set us apart in the meme-driven cryptocurrency space.</p>
-                <p>Our commitment to reshaping the narrative around what a meme can represent is central to our success. By steering away from any negative connotations and focusing on a family-friendly portrayal, we foster a broader acceptance and appeal. This approach not only aligns with modern values but also cements our position as pioneers in a rapidly evolving market.</p>
-              </DescriptionContainer>
-              <ImageContainer>
-                <Image src="/chadtri.png" alt="Chad Positive" width={300} height={300} />
-              </ImageContainer>
-            </ContentContainer>
-            <ContentContainer>
-              <DescriptionContainer>
-                <p>Why will we succeed? Because at $CHAD, we&apos;re more than just a meme token; we are a symbol of change. By leveraging the universal language of memes, we connect with a global audience while promoting a safe, friendly, and engaging online experience. We&apos;re building a community where everyone feels welcome, valued, and entertained.</p>
-              </DescriptionContainer>
-              <ImageContainer>
-                <Image src="/chadsize.png" alt="Chad Community" width={300} height={300} />
-              </ImageContainer>
-            </ContentContainer>
+            <ImageContainer>
+              <Image src="/chadtri.png" alt="Chad Positive" width={300} height={300} />
+            </ImageContainer>
+          </ContentContainer>
+          <ContentContainer>
+            <DescriptionContainer>
+              <p>Why will we succeed? Because at $CHAD, we&apos;re more than just a meme token; we are a symbol of change. By leveraging the universal language of memes, we connect with a global audience while promoting a safe, friendly, and engaging online experience. We&apos;re building a community where everyone feels welcome, valued, and entertained.</p>
+            </DescriptionContainer>
+            <ImageContainer>
+              <Image src="/chadsize.png" alt="Chad Community" width={300} height={300} />
+            </ImageContainer>
+          </ContentContainer>
         </SectionContainer>
 
         <SectionContainer>
@@ -286,8 +286,8 @@ export default function Home() {
           </Banner>
           <p>As the original Chad token from 2020, we not only play a pivotal role in collecting tax across the entire ecosystem and maintaining a deflationary supply.</p>
           <br></br>
-  <p>In demonstrating our dominance and commitment to the ecosystem, we have strategically purchased a significant percentage of the supply of other Chad tokens. This move asserts our position as the undisputed leader. These tokens have been added to liquidity pools with our token on PepeX to enhance stability and visibility within the marketplace.</p>
-<br></br>
+          <p>In demonstrating our dominance and commitment to the ecosystem, we have strategically purchased a significant percentage of the supply of other Chad tokens. This move asserts our position as the undisputed leader. These tokens have been added to liquidity pools with our token on PepeX to enhance stability and visibility within the marketplace.</p>
+          <br></br>
           <h2>Chad Index</h2>
           <br></br>
 
@@ -296,16 +296,16 @@ export default function Home() {
             <Image src="/chad.png" alt="Chad1 Logo" width={100} height={100} />
             <Image src="/chadred.png" alt="Chad2 Logo" width={100} height={100} />
             <Image src="/chadtoken.png" alt="Chad3 Logo" width={100} height={100} />
-            <p>+ (SWOT Analysis of 6 Chads) 
-            <ButtonLink href="#buy"><a href="https://docs.ogpepe.io/wojak-pepe-chad/chad-chad/chad-index" target="_blank" rel="noopener noreferrer">LEARN</a></ButtonLink>
-</p>
+            <p>+ (SWOT Analysis of 6 Chads)
+              <ButtonLink href="#buy"><a href="https://docs.ogpepe.io/wojak-pepe-chad/chad-chad/chad-index" target="_blank" rel="noopener noreferrer">LEARN</a></ButtonLink>
+            </p>
           </ImageContainer>
           <h2>Comparative Overview of Chad Tokens</h2>
           <br></br>
-<p>Within the diverse landscape of Chad tokens, each has distinct characteristics and strategic relevance. Unlike these tokens, our Chad token stands out as the most family-friendly and inclusive option in the market, emphasizing positive community values and sustainable growth. We&apos;re not just another meme token; we&apos;re a movement towards a more positive and inclusive digital currency environment.</p>
+          <p>Within the diverse landscape of Chad tokens, each has distinct characteristics and strategic relevance. Unlike these tokens, our Chad token stands out as the most family-friendly and inclusive option in the market, emphasizing positive community values and sustainable growth. We&apos;re not just another meme token; we&apos;re a movement towards a more positive and inclusive digital currency environment.</p>
         </SectionContainer>
         <SectionContainer>
-        <h2>Our Partners</h2>
+          <h2>Our Partners</h2>
           <PartnerContainer>
             <a href="https://twitter.com/wojakfarm" target="_blank" rel="noopener noreferrer">
               <Image src="/wojak-logo.jpg" alt="Wojak Logo" width={50} height={50} />
@@ -325,6 +325,12 @@ export default function Home() {
         <SectionContainer>
           <h2>Disclaimer</h2>
           <p>This is a meme, not an investment. Risk including the possible loss.</p>
+          <p>
+            This token is simply paying homage to a meme we all love and recognize.
+          </p>
+          <p>
+            $CHAD is a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. the coin is completely useless and for entertainment purposes only.
+          </p>
         </SectionContainer>
         <p>© 2024 $CHAD Token. All rights reserved.</p>
       </MainContainer>
